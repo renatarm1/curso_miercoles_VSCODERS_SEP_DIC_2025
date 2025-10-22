@@ -1,0 +1,62 @@
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('http://25.media.tumblr.com/9f2bcad1095c11825d7ace3d53a68cd2/tumblr_mgdhjlzBrL1qjtmpwo1_500.gif');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.3); /* Más transparente */
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+      text-align: center;
+      max-width: 400px;
+      width: 300px;      /* ancho fijo */
+      height: 200px;
+      animation: fadeIn 1s ease-in-out;
+      margin: 10px;
+      color: #333; /* Asegura que el texto se vea */
+      backdrop-filter: blur(8px); /* Para dar efecto de vidrio esmerilado */
+      -webkit-backdrop-filter: blur(8px); /* Compatibilidad con Safari */
+      border: 1px solid rgba(255, 255, 255, 0.4); /* Borde sutil */
+    }
+
+    .card img {
+      width: 100px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 28px;
+      color: #333;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 20px;
+      color: #5563DE;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #666;
+      font-weight: normal;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
