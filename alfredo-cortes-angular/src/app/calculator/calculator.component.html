@@ -1,0 +1,11 @@
+<div class="calculator">
+  <h2>Calculadora</h2>
+
+  <input title="calu" type="text" [(ngModel)]="display" readonly>
+
+  <div class="buttons">
+    <button *ngFor="let num of numbers" (click)="press(num)">{{ num }}</button>
+    <button (click)="calculate()">=</button>
+    <button (click)="clear()">C</button>
+  </div>
+</div>
