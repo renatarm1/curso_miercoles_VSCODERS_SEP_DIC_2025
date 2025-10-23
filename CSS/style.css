@@ -1,0 +1,26 @@
+body{
+    background-image: url('https://68.media.tumblr.com/e509cb97e384d5d797c919ee0642a3c7/tumblr_oqa0xvq3781vjxr9zo1_400.gif'); /* ruta relativa: ajusta según tu estructura */
+    background-size: cover;       /* ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* evita que se repita */
+    background-position: center;  /* centra la imagen */
+    background-attachment: fixed; /* opcional: fija el fondo al hacer scroll */
+    background-color: #222;       /* color de respaldo mientras carga la imagen */
+}
+h1{
+    color: rgb(250, 245, 245);
+    font-size: 80px;
+    text-align: center;
+    font-family:cursive;
+}
+h2{
+    color: rgb(247, 243, 243);
+    font-size: 30px;
+    text-align: center;
+    font-family:cursive;
+}
+h3{
+    color: rgb(247, 243, 243);
+    font-size: 30px;
+    text-align: center;
+    font-family:cursive;
+}
